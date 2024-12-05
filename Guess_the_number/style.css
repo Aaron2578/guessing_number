@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    height:100vh;
+    background-image: linear-gradient(135deg, white, lightgreen, darkblue);
+}
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.container .header {
+    font-size: 20px;
+    padding: 100px 0px 50px 0px;
+}
+.input-field {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-field div:first-child > label {
+   font-size: 20px;
+}
+.input-field div:first-child > input {
+    width:50%;
+    padding: 8px 25px;
+    border-radius: 20px;
+ }
+ .input-field div:last-child > button {
+    padding: 10px 50px;
+    border-radius: 20px;
+    background: rgb(48, 125, 214);
+    color: white;
+    border: none;
+ }
+ .input-field div:last-child > button:hover {
+    background:  rgb(5, 47, 238);
+    color: white;
+    transition: 0.5s;
+ }
+ .container .result {
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    font-size: 18px;
+ }
+ .container .result >p:first-child {
+    margin: 20px 0px 0px 0px;
+ }
+ .container .result >p:last-child {
+    margin: 20px 0px 0px 0px;
+    font-size: 30px;
+ }
+ h1 {
+    color: rgb(255, 7, 69);
+ }
+ #score {
+    color: blue;
+ }
+ label {
+    color: brown;
+    font-weight: 600;
+ }
+ #result {
+    font-size: 20px;
+ }
