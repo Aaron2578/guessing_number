@@ -70,6 +70,10 @@ body {
  }
 
  @media only screen and (max-width: 600px) {
+    .container .header {
+        font-size: 15px;
+        padding: 100px 0px 50px 0px;
+    }
 
     .input-field {
     width: 100%;
@@ -80,4 +84,9 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+.input-field div:first-child > input {
+    width:100%;
+    padding: 8px 25px;
+    border-radius: 20px;
+ }
  }
